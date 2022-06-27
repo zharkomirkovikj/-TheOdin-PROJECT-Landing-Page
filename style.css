@@ -47,11 +47,52 @@
 
 .logo {
     margin-left: 20px;
-    margin-right: auto;
     color: #f9FAF8;
     font-size: 24px;
     font-weight: 500;
     cursor: pointer;
 }
 
-/* ------------------------------- */
+/* Hero Section */
+
+.hero {
+    background-color: #1F2937;
+    width: 100%;
+    height: 500px;
+}
+
+.left_content {
+    min-width: 430px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.left_content h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.left_content p {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 8px;
+}
+
+.right_content {
+    min-width: 560px;
+    height: 250px;
+    margin: 20px;
+    background-color: rgb(99, 93, 93);
+    text-align: center;
+    color: #E5E7EB;
+}
+
+.btn1 {
+    border: none;
+    border-radius: 3px;
+    padding: 8px 28px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 500;
+}
