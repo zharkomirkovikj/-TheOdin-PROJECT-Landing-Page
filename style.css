@@ -114,11 +114,17 @@
     margin: 50px;
 }
 
+.thecards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
 .cards_container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    gap: 40px;
 }
 
 .card { 
@@ -127,11 +133,11 @@
     border: 3px solid #3882F6;
     border-radius: 10px;
     flex-shrink: 0;
+    margin-bottom: 5px;
 }
 
-#go_below {
-    margin-top: 150px;
-    text-align: center;
+.under_cards_text {
+    width: 150px;
 }
 
 /* Quote Section */
